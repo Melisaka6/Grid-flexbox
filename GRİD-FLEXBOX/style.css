@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--very-light-gray-bg-hds-btns);
+    font-size: 16px;
+}
+
+
+.gridtotal{
+   display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  color: white;
+  place-content: center;
+  height: auto;
+  font-family: sans-serif;
+  text-align: left;
+  
+}
+ 
+.gridtotal div {
+  padding: 15px;
+}
+
+.gridtotal div > * {
+  margin-top: 35px;
+}
+
+.gridtotal div > *:last-child{
+  margin-bottom:50px
+}
+
+
+.gridtotal .orangebox{
+background-color: orange;
+}
+
+.gridtotal .bluebox{
+    background-color: darkcyan;
+    border:1fr ;    
+}
+
+.gridtotal .darkbluebox{
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+
+
+
+
+
+
+.orangebox .btn{
+     margin-top: 1.5rem;
+    background-color: white ; 
+    border: 1fr ;
+    border-color: white ;
+    color:black;
+    border-radius: 3rem;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.orangebox .btn:hover{
+    background-color: orange;
+    color:white;
+}
+
+
+.bluebox .btn{ 
+    margin-top: 1.5rem;
+    background-color: white ; 
+    border: 1fr ;
+    border-color: white ;
+    color:black;
+    border-radius: 3rem;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.bluebox .btn:hover{
+    background-color: darkcyan;
+    color:white;
+}
+
+
+.darkbluebox .btn{
+    margin-top: 1.5rem;
+    background-color: white ; 
+    border: 1fr ;
+    border-color: white ;
+    color:black;
+    border-radius: 3rem;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.darkbluebox .btn:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:white;
+}
+
+
+
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px;
+    color:black;
+  }
+
+  .attribution a {
+    color:orange;
+
+  }
+
+  
+  
+  
+  
+  
+  
